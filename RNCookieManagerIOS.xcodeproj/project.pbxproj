@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BD725DE1CF77A8B005DBD79 /* RNCookieManagerIOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BD725DD1CF77A8B005DBD79 /* RNCookieManagerIOS.h */; };
-		1BD725E01CF77A8B005DBD79 /* RNCookieManagerIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD725DF1CF77A8B005DBD79 /* RNCookieManagerIOS.m */; };
+		1BD726021CF77DD1005DBD79 /* RNCookieManagerIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD726011CF77DD1005DBD79 /* RNCookieManagerIOS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,18 +17,15 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				1BD725DE1CF77A8B005DBD79 /* RNCookieManagerIOS.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1BD725D41CF779A6005DBD79 /* RNCookieManagerIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RNCookieManagerIOS.h; path = RNCookieManagerIOS/RNCookieManagerIOS.h; sourceTree = "<group>"; };
-		1BD725D51CF779A6005DBD79 /* RNCookieManagerIOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNCookieManagerIOS.m; path = RNCookieManagerIOS/RNCookieManagerIOS.m; sourceTree = "<group>"; };
 		1BD725DA1CF77A8B005DBD79 /* libRNCookieManagerIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCookieManagerIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BD725DD1CF77A8B005DBD79 /* RNCookieManagerIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCookieManagerIOS.h; sourceTree = "<group>"; };
-		1BD725DF1CF77A8B005DBD79 /* RNCookieManagerIOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCookieManagerIOS.m; sourceTree = "<group>"; };
+		1BD726001CF77DD1005DBD79 /* RNCookieManagerIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCookieManagerIOS.h; sourceTree = "<group>"; };
+		1BD726011CF77DD1005DBD79 /* RNCookieManagerIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCookieManagerIOS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,9 +42,7 @@
 		1BD725CD1CF7795C005DBD79 = {
 			isa = PBXGroup;
 			children = (
-				1BD725D41CF779A6005DBD79 /* RNCookieManagerIOS.h */,
-				1BD725D51CF779A6005DBD79 /* RNCookieManagerIOS.m */,
-				1BD725DC1CF77A8B005DBD79 /* RNCookieManagerIOS */,
+				1BD725FF1CF77DD1005DBD79 /* RNCookieManagerIOS */,
 				1BD725DB1CF77A8B005DBD79 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,11 +55,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1BD725DC1CF77A8B005DBD79 /* RNCookieManagerIOS */ = {
+		1BD725FF1CF77DD1005DBD79 /* RNCookieManagerIOS */ = {
 			isa = PBXGroup;
 			children = (
-				1BD725DD1CF77A8B005DBD79 /* RNCookieManagerIOS.h */,
-				1BD725DF1CF77A8B005DBD79 /* RNCookieManagerIOS.m */,
+				1BD726001CF77DD1005DBD79 /* RNCookieManagerIOS.h */,
+				1BD726011CF77DD1005DBD79 /* RNCookieManagerIOS.m */,
 			);
 			path = RNCookieManagerIOS;
 			sourceTree = "<group>";
@@ -125,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD725E01CF77A8B005DBD79 /* RNCookieManagerIOS.m in Sources */,
+				1BD726021CF77DD1005DBD79 /* RNCookieManagerIOS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
