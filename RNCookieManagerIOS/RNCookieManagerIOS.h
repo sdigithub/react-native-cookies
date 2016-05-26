@@ -1,6 +1,13 @@
-// RNCookieManagerIOS.h
-#import "RCTBridgeModule.h"
+//
+//  RNCookieManagerIOS.h
+//  RNCookieManagerIOS
+//
+//  Created by Juan Manuel Rodriguez on 5/26/16.
+//
+//
 
-@interface RNCookieManagerIOS : NSObject <RCTBridgeModule>
+#import <Foundation/Foundation.h>
+
+@interface RNCookieManagerIOS : NSObject
 
 @end
