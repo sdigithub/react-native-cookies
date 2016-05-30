@@ -6,6 +6,7 @@ Cookie manager for react native.
 
 1. `npm install react-native-cookies`
 2. `rnpm link react-native-cookies` - (run `npm install -g rnpm` if required)
+3. Om nom nom nom cookies.
 
 ### Usage
 
