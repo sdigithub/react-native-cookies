@@ -43,7 +43,13 @@ public class CookieManagerModule extends ReactContextBaseJavaModule {
         headers.put("Set-cookie", Collections.singletonList(value));
         URI uri = new URI(url);
         this.cookieHandler.put(uri, headers);
-        callback.invoke(null, null);
+
+        try {
+          this.cookieHandler.put(uri, headers);
+          callback.invoke(true);
+        } catch (Exception ex) {
+          callback.invoke(false);
+        }
     }
 
     @ReactMethod
