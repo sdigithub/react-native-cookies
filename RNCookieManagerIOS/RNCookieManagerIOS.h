@@ -1,5 +1,5 @@
 // RNCookieManagerIOS.h
-#import "RCTBridgeModule.h"
+#import <React/RCTBridgeModule.h>
 
 @interface RNCookieManagerIOS : NSObject <RCTBridgeModule>
 
