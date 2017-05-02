@@ -1,4 +1,4 @@
-var React = require('react');
+import React from 'react';
 import {NativeModules, Platform} from 'react-native';
 var invariant = require('invariant');
 var RNCookieManagerIOS = NativeModules.RNCookieManagerIOS;
@@ -21,7 +21,8 @@ var functions = [
     'setFromResponse',
     'get',
     'getAll',
-    'clearAll'
+    'clearAll',
+    'clearByName'
 ];
 
 module.exports = {}
